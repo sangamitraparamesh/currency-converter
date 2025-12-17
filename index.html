@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animated Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="floating">
+    <span>₹</span><span>$</span><span>€</span><span>£</span><span>¥</span><span>₩</span>
+</div>
+
+<div class="container">
+    <h1>💱 Currency Converter</h1>
+
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <select id="from"></select>
+
+    <div class="swap">⇄</div>
+
+    <select id="to"></select>
+
+    <button id="convertBtn">Convert</button>
+
+    <div class="result" id="result">Result appears here</div>
+</div>
+
+<!-- Sounds -->
+<audio id="clickSound" src="https://www.soundjay.com/buttons/sounds/button-16.mp3"></audio>
+<audio id="successSound" src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
